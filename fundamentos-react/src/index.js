@@ -1,3 +1,15 @@
+import'./index.css'
 import  ReactDOM  from "react-dom";
-const el = document.getElementById('root')
-ReactDOM.render('Olá React!!!!', el)
+import React from 'react'
+
+
+const tag = <label >Olá React!</label>
+
+
+ReactDOM.render(
+    <div>
+        {tag}
+        
+    </div>,
+    document.getElementById('root')
+)
