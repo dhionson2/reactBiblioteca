@@ -1,5 +1,5 @@
 import React from "react";
-import IndiretaFilho from "./IndiretaFilho";
+import indiretaFilho from "./indiretaFilho";
 export default props => {
 
     let nome = '?';
