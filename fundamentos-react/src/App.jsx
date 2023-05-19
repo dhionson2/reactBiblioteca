@@ -13,12 +13,16 @@ import Aleatorio from "./components/basicos/Aleatorio";
 import Primeiro  from './components/basicos/Primeiro';
 import ComParametro from './components/basicos/ComParametro';
 import Fragmento from './components/basicos/Fragmento';
+import IndiretaPai from './components/basicos/comunicacao/IndiretaPai';
 
 export default  _ =>
         <div className="App">
             <h1>Fundamentos React</h1>
 
             <div className="Cards">
+                <Card titulo="#11-Comunicação indireta" color="#59390C">
+                    <IndiretaPai></IndiretaPai>
+                </Card>
                 <Card titulo="#10-Comunicação Direta" color="#59323C">
                     <DiretaPai></DiretaPai>
                 </Card>
